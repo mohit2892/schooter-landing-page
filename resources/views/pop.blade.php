@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Booking Form</title>
-  <!-- <style>
+    <meta charset="UTF-8">
+    <title>Booking Form</title>
+    <!-- <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #111;
@@ -83,32 +84,34 @@
     }
   </style> -->
 </head>
+
 <body>
 
-<!-- <div class="modal">
+    <!-- <div class="modal">
   @include('inc.form')
 </div> -->
 
 
 
-  <script>
-    // Open modal automatically when page loads
-    window.onload = function () {
-      document.getElementById("bookingModal").style.display = "block";
-    };
+    <script>
+        // Open modal automatically when page loads
+        window.onload = function() {
+            document.getElementById("bookingModal").style.display = "block";
+        };
 
-    function closeModal() {
-      document.getElementById("bookingModal").style.display = "none";
-    }
+        function closeModal() {
+            document.getElementById("bookingModal").style.display = "none";
+        }
 
-    // Close when clicking outside
-    window.onclick = function (event) {
-      const modal = document.getElementById("bookingModal");
-      if (event.target === modal) {
-        modal.style.display = "none";
-      }
-    };
-  </script>
+        // Close when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById("bookingModal");
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
 
 </body>
+
 </html>
