@@ -1,0 +1,75 @@
+/* General reset and basic styling */
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thank You Page Section */
+.thank-you-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* Container for the Thank You message */
+.thank-you-container {
+    background-color: #000; /* Darker background (pure black) */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.7); /* Darker shadow */
+}
+
+/* Content inside the container */
+.thank-you-content {
+    padding: 20px;
+}
+
+/* Icon styling - Centered image */
+.thank-you-icon {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+    margin-bottom: 20px; /* Add margin below the icon */
+}
+
+.thank-you-icon img {
+    width: 60px; /* Adjust size */
+    height: 60px; /* Adjust size */
+}
+
+/* Heading style */
+h1 {
+    font-size: 32px;
+    color: #34C759;
+    margin-top: 20px;
+}
+
+/* Paragraph style */
+p {
+    color: #b0b0b0;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+/* Button styling */
+.back-home-btn {
+    display: inline-block;
+    background-color: #34C759;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.back-home-btn:hover {
+    background-color: #28a745;
+}
